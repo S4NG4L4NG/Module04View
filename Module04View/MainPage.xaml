@@ -1,0 +1,33 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module04View.MainPage" Title="Sangalang, Leandro">
+
+    <ContentPage.Resources>
+        
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#3498db" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="CornerRadius" Value="5" />
+
+        </Style>
+        
+    </ContentPage.Resources>
+    
+
+
+    <StackLayout>
+        <Button Text="Alert" Clicked="AlertPop"/>
+        <Button Text="Text Cell" Clicked="textCell"/>
+        <Button Text="Image Cell" Clicked="imageCell"/>
+        <Button Text="Entry Cell" Clicked="entryCell"/>
+        <Button Text="Switch Cell" Clicked="switchCell"/>
+    </StackLayout>
+    
+
+
+</ContentPage>
+
